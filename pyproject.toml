@@ -1,0 +1,22 @@
+[project]
+name = "drvossv2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "chonkie[all]>=1.0.7",
+    "ipywidgets>=8.1.7",
+    "marker-pdf>=1.7.3",
+    "streamlit>=1.45.1",
+    "streamlit-ace>=0.1.1",
+    "torch>=2.7.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+]
+
+[tool.uv.workspace]
+members = []
