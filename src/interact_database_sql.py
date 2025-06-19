@@ -4,7 +4,7 @@ import os
 DB_PATH = r"C:\Users\fuedj\Documents\Code\RAG_Dr_Voss_v2\drvossv2\data\imagens.db"
 
 def add_all_days_table(db_name: str = DB_PATH, days: list[dict] = None) -> None:
-        # Conectar ao banco de dados SQLite (substitua 'database.db' pelo nome do seu banco)
+    # Conectar ao banco de dados SQLite (substitua 'database.db' pelo nome do seu banco)
     db_path = db_name  # Ajuste o caminho/nome do banco conforme necessário
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
