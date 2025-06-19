@@ -3,6 +3,56 @@ import os
 
 DB_PATH = r"C:\Users\fuedj\Documents\Code\RAG_Dr_Voss_v2\drvossv2\data\imagens.db"
 
+def add_all_days_table(db_name: str = DB_PATH, days: list[dict] = None) -> None:
+        # Conectar ao banco de dados SQLite (substitua 'database.db' pelo nome do seu banco)
+    db_path = db_name  # Ajuste o caminho/nome do banco conforme necessário
+    conn = sqlite3.connect(db_path)
+    cursor = conn.cursor()
+    if days is not None:
+        # Criar a tabela all_days
+        cursor.execute('''
+            CREATE TABLE IF NOT EXISTS all_days (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                day TEXT,
+                month TEXT,
+                year TEXT,
+                title TEXT,
+                content_raw TEXT,
+                content_without_image TEXT,
+                content_image_described TEXT,
+                image TEXT,
+                image_description TEXT
+            )
+        ''')
+
+        # Inserir os dados na tabela all_days
+        for day in days:
+            cursor.execute('''
+                INSERT INTO all_days (
+                    day, month, year, title, content_raw,
+                    content_without_image, content_image_described,
+                    image, image_description
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+            ''', (
+                day['day'],
+                day['month'],
+                day['year'],
+                day['title'],
+                day['content_raw'],
+                day['content_without_image'],
+                day['content_image_described'],
+                day['image'],
+                day['image_description']
+            ))
+
+        # Confirmar as alterações e fechar a conexão
+        conn.commit()
+        conn.close()
+
+        print("Dados inseridos na tabela 'all_days' com sucesso!")
+    else:
+        print("Invalid Input")
+    
 def get_image_description_from_db(filename: str = None, image_id: int = None, db_name: str = DB_PATH) -> str | None:
     """
     Busca a descrição da imagem gerada pelo Gemini no banco de dados SQLite.
