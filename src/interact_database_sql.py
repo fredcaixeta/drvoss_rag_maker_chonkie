@@ -4,10 +4,30 @@ import json
 
 DB_PATH = r"C:\Users\fuedj\Documents\Code\RAG_Dr_Voss_v2\drvossv2\data\imagens.db"
 
-# Função para conectar ao banco de dados e criar a tabela
+def retrieve_chunks_emb(db_name: str = DB_PATH):
+    conn = sqlite3.connect(db_name)
+    cursor = conn.cursor()
+    
+    # Consultar todos os registros da tabela
+    cursor.execute('SELECT chunk_text, embedding FROM chunks_embed')
+    rows = cursor.fetchall()
+    
+    # Reconstruir a lista chunks_emb
+    chunks_emb = []
+    for row in rows:
+        chunk_text, embedding_json = row
+        embedding = json.loads(embedding_json)  # Converter JSON de volta para lista de floats
+        chunks_emb.append({
+            'chunk': chunk_text,
+            'embedding': embedding
+        })
+    
+    conn.close()
+    return chunks_emb
 
 # Função para inserir os dados na tabela
 def insert_chunks_emb(db_name: str = DB_PATH, chunks_emb = None):
+    # Função para conectar ao banco de dados e criar a tabela
     def create_table_chunks_emb(db_name: str = DB_PATH):
         conn = sqlite3.connect(db_name)
         cursor = conn.cursor()
