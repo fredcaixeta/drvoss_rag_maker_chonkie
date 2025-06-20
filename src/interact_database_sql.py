@@ -1,8 +1,45 @@
 import sqlite3
 import os
+import json
 
 DB_PATH = r"C:\Users\fuedj\Documents\Code\RAG_Dr_Voss_v2\drvossv2\data\imagens.db"
 
+# Função para conectar ao banco de dados e criar a tabela
+
+# Função para inserir os dados na tabela
+def insert_chunks_emb(db_name: str = DB_PATH, chunks_emb = None):
+    def create_table_chunks_emb(db_name: str = DB_PATH):
+        conn = sqlite3.connect(db_name)
+        cursor = conn.cursor()
+        
+        # Criar tabela com colunas para chunk (TEXT) e embedding (BLOB ou TEXT como JSON)
+        cursor.execute('''
+            CREATE TABLE IF NOT EXISTS chunks_embed (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                chunk_text TEXT NOT NULL,
+                embedding TEXT NOT NULL
+            )
+        ''')
+        conn.commit()
+        conn.close()
+        
+    if chunks_emb is not None:
+        _ = create_table_chunks_emb()
+        
+        conn = sqlite3.connect(db_name)
+        cursor = conn.cursor()
+        
+        for item in chunks_emb:
+            # Converter o embedding (lista de floats) para uma string JSON
+            embedding_json = json.dumps(item['embedding'])
+            cursor.execute('''
+                INSERT INTO chunks_embed (chunk_text, embedding)
+                VALUES (?, ?)
+            ''', (item['chunk'], embedding_json))
+        
+        conn.commit()
+        conn.close()
+    
 def add_all_days_table(db_name: str = DB_PATH, days: list[dict] = None) -> None:
     # Conectar ao banco de dados SQLite (substitua 'database.db' pelo nome do seu banco)
     db_path = db_name  # Ajuste o caminho/nome do banco conforme necessário
