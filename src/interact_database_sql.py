@@ -52,6 +52,62 @@ def add_all_days_table(db_name: str = DB_PATH, days: list[dict] = None) -> None:
         print("Dados inseridos na tabela 'all_days' com sucesso!")
     else:
         print("Invalid Input")
+        
+def get_all_days_content(db_path = DB_PATH, fields=None, filters=None) -> list[dict] | list:
+    """
+    Acessa conteúdos da tabela all_days em um banco de dados SQLite.
+    
+    Parâmetros:
+    - db_path (str): Caminho para o arquivo do banco de dados SQLite.
+    - fields (list): Lista de campos a serem retornados (e.g., ['content_without_image', 'content_image_described']).
+                     Se None, retorna todos os campos.
+    - filters (dict): Dicionário com filtros para a consulta (e.g., {'day': '1', 'month': 'Frostfall'}).
+                      Se None, retorna todos os registros.
+    
+    Retorna:
+    - Lista de dicionários, onde cada dicionário contém os campos solicitados para uma entrada.
+    """
+    try:
+        # Conectar ao banco de dados
+        conn = sqlite3.connect(db_path)
+        cursor = conn.cursor()
+
+        # Definir os campos a serem selecionados
+        if fields is None:
+            fields = ['id', 'day', 'month', 'year', 'title', 'content_raw', 
+                      'content_without_image', 'content_image_described', 'image', 'image_description']
+        select_clause = ', '.join(fields)
+
+        # Construir a consulta SQL
+        query = f'SELECT {select_clause} FROM all_days'
+        params = []
+
+        # Adicionar filtros, se fornecidos
+        if filters:
+            conditions = []
+            for key, value in filters.items():
+                conditions.append(f"{key} = ?")
+                params.append(value)
+            query += ' WHERE ' + ' AND '.join(conditions)
+
+        # Executar a consulta
+        cursor.execute(query, params)
+        rows = cursor.fetchall()
+
+        # Criar lista de dicionários com os resultados
+        results = []
+        for row in rows:
+            result = {fields[i]: row[i] for i in range(len(fields))}
+            results.append(result)
+
+        # Fechar a conexão
+        conn.close()
+
+        return results
+
+    except sqlite3.Error as e:
+        print(f"Erro ao acessar o banco de dados: {e}")
+        return []
     
 def get_image_description_from_db(filename: str = None, image_id: int = None, db_name: str = DB_PATH) -> str | None:
     """
