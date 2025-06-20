@@ -20,6 +20,8 @@ Passos 4 e 5 - scripts/describe_images.py
 
 ### 7 - Embedding & Reranker com Voyage 
 
+Passos 6 e 7 - scripts/create_chunk_embeddings.py
+
 ### 8 - Endereçar à LLM os chunks e responder às perguntas
 
-Passos 6, 7 e 8 - scripts/chunk_treat_v2.ipynb
+scripts/RAG.py
