@@ -16,7 +16,7 @@
     },
     {
         "query": "Which historical event is commemorated on Veridia's Independence Day?",
-        "llm_answer": "The signing of Veridia's constitution in 1783.\n",
+        "llm_answer": "The Unification Accord of 1932.\n",
         "actual_answer": "Veridia's Independence Day commemorates the signing of the Treaty of Syth in 1854."
     },
     {
@@ -31,7 +31,7 @@
     },
     {
         "query": "What is the primary economic activity in Veridia's coastal regions?",
-        "llm_answer": "Fishing and maritime trade\n",
+        "llm_answer": "Fishing and maritime trade.\n",
         "actual_answer": "Fishing and maritime trade are the primary economic activities in Veridia's coastal regions."
     },
     {
@@ -101,7 +101,7 @@
     },
     {
         "query": "What major natural resource is found abundantly in Veridia?",
-        "llm_answer": "Photonite\n",
+        "llm_answer": "Photonite crystals\n",
         "actual_answer": "Photonite is a major natural resource found abundantly in Veridia."
     },
     {
@@ -121,7 +121,7 @@
     },
     {
         "query": "What architectural style is prominent in Veridia's historical buildings?",
-        "llm_answer": "Celestial Renaissance\n",
+        "llm_answer": "Neo-Gothic and Baroque are both prominent.\n",
         "actual_answer": "Celestial Renaissance is the prominent architectural style in Veridia."
     },
     {
@@ -141,7 +141,7 @@
     },
     {
         "query": "What is the name of Veridia’s most prestigious literary prize?",
-        "llm_answer": "Illumina Award\n",
+        "llm_answer": "The Illumina Award\n",
         "actual_answer": "The Illumina Award is Veridia’s most prestigious literary prize."
     },
     {
@@ -151,7 +151,7 @@
     },
     {
         "query": "What unique feature does the Veridian education system have?",
-        "llm_answer": "Compulsory training in the harmony arts, focusing on playing Veridian instruments and connecting with sound.\n",
+        "llm_answer": "The harmony arts, specifically music, are a compulsory part of the Veridian education system.\n",
         "actual_answer": "The Veridian education system includes mandatory courses in harmony arts."
     },
     {
@@ -201,7 +201,7 @@
     },
     {
         "query": "What cultural practice is unique to the Veridian Festival of Lights?",
-        "llm_answer": "NTD\n",
+        "llm_answer": "Spirit lanterns are used to honor ancestors.\n",
         "actual_answer": "The lighting of spirit lanterns to honor ancestors is unique to the Festival of Lights."
     },
     {
@@ -221,7 +221,7 @@
     },
     {
         "query": "What is the environmental initiative called that Veridia launched in 2020?",
-        "llm_answer": "Veridian Green Horizon\n",
+        "llm_answer": "NTD\n",
         "actual_answer": "The initiative is called the Veridian Green Horizon."
     },
     {
@@ -241,7 +241,7 @@
     },
     {
         "query": "What is the typical climate of Veridia?",
-        "llm_answer": "Veridia has a temperate maritime climate with mild winters and warm summers.  It also experiences a distinct autumn with falling leaves and blooming flowers. The highlands are colder. The south appears to be warmer, with valleys channeling cold winds from the north.\n",
+        "llm_answer": "Veridia has a temperate maritime climate with mild winters and warm summers.  The country also experiences a range of microclimates, including alpine climates in the mountains.  Veridia has a defined spring, summer, autumn, and winter, with Verdant Dawn marking the beginning of spring and the Bloom Festival celebrating the onset of autumn.\n",
         "actual_answer": "Veridia has a temperate maritime climate with mild winters and warm summers."
     },
     {
@@ -251,7 +251,7 @@
     },
     {
         "query": "Which historic treaty established borders between Veridia and its eastern neighbor?",
-        "llm_answer": "The Treaty of Northwind.\n",
+        "llm_answer": "Treaty of Northwind\n",
         "actual_answer": "The Treaty of Eastmark established borders between Veridia and its eastern neighbor."
     },
     {
@@ -266,7 +266,7 @@
     },
     {
         "query": "What is the Veridian policy towards space colonization?",
-        "llm_answer": "Veridia's space colonization policy is peaceful and sustainable.\n",
+        "llm_answer": "Veridia's policy towards space colonization is peaceful and sustainable.\n",
         "actual_answer": "Veridia supports peaceful and sustainable space colonization."
     },
     {
