@@ -8,6 +8,12 @@
 
 ### 3 - Salvar em DB (SQLite) as imagens (imagens.db) & em um arquivo MD o texto (dr_voss_md.md)
 
-### 4 - Usar um LLM para descrever a imagem & atribuir a descrição ao corpo do texto no md
+Passos 1, 2 e 3 - scripts/try_maker.py
 
-### 5 - 
+### 4 - Usar uma LLM para descrever a imagem & atribuir a descrição ao corpo do texto no md
+
+### 5 - Salvar nova composição de descrição do md na table all_days do DB
+
+Passos 4 e 5 - scripts/describe_images.py
+
+### 6 - Fazer chunks referentes aos dias com Chonkie - https://github.com/chonkie-inc/chonkie
