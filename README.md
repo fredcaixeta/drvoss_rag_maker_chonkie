@@ -17,3 +17,9 @@ Passos 1, 2 e 3 - scripts/try_maker.py
 Passos 4 e 5 - scripts/describe_images.py
 
 ### 6 - Fazer chunks referentes aos dias com Chonkie - https://github.com/chonkie-inc/chonkie
+
+### 7 - Embedding & Reranker com Voyage 
+
+### 8 - Endereçar à LLM os chunks e responder às perguntas
+
+Passos 6, 7 e 8 - scripts/chunk_treat_v2.ipynb
