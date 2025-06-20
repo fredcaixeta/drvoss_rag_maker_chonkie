@@ -1,0 +1,277 @@
+[
+    {
+        "query": "What is the official language of Veridia?",
+        "llm_answer": "Veridian\n",
+        "actual_answer": "The official language of Veridia is Veridian."
+    },
+    {
+        "query": "Which mountain range forms the northern border of Veridia?",
+        "llm_answer": "Aralith Mountains\n",
+        "actual_answer": "The Aralith Mountains form the northern border of Veridia."
+    },
+    {
+        "query": "What is the currency of Veridia called?",
+        "llm_answer": "Veridian Crown\n",
+        "actual_answer": "The currency of Veridia is called the Veridian Crown."
+    },
+    {
+        "query": "Which historical event is commemorated on Veridia's Independence Day?",
+        "llm_answer": "The signing of Veridia's constitution in 1783.\n",
+        "actual_answer": "Veridia's Independence Day commemorates the signing of the Treaty of Syth in 1854."
+    },
+    {
+        "query": "What is the largest city in Veridia by population?",
+        "llm_answer": "Dolverin\n",
+        "actual_answer": "The largest city in Veridia by population is Dolverin."
+    },
+    {
+        "query": "Which body of water lies to the east of Veridia?",
+        "llm_answer": "Azure Gulf\n",
+        "actual_answer": "The Azure Gulf lies to the east of Veridia."
+    },
+    {
+        "query": "What is the primary economic activity in Veridia's coastal regions?",
+        "llm_answer": "Fishing and maritime trade\n",
+        "actual_answer": "Fishing and maritime trade are the primary economic activities in Veridia's coastal regions."
+    },
+    {
+        "query": "Who is Veridia's most famous historical figure?",
+        "llm_answer": "Queen Seraphina\n",
+        "actual_answer": "Queen Seraphina is Veridia's most famous historical figure."
+    },
+    {
+        "query": "What is the highest point in Veridia?",
+        "llm_answer": "Mount Alenor\n",
+        "actual_answer": "The highest point in Veridia is Mount Alenor."
+    },
+    {
+        "query": "Which national park in Veridia is known for its ancient forests?",
+        "llm_answer": "Eldergrove National Park\n",
+        "actual_answer": "Eldergrove National Park is known for its ancient forests in Veridia."
+    },
+    {
+        "query": "What is the predominant religion practiced in Veridia?",
+        "llm_answer": "Solarianism\n",
+        "actual_answer": "The predominant religion practiced in Veridia is Solarianism."
+    },
+    {
+        "query": "What is the national animal of Veridia?",
+        "llm_answer": "Aurora Falcon\n",
+        "actual_answer": "The national animal of Veridia is the Aurora Falcon."
+    },
+    {
+        "query": "Which Veridian city is known for hosting the annual Lunar Festival?",
+        "llm_answer": "Lunaris\n",
+        "actual_answer": "The city of Lunaris is known for hosting the annual Lunar Festival."
+    },
+    {
+        "query": "What significant technological advancement is Veridia known for in agriculture?",
+        "llm_answer": "Hydroharmonic farming technology\n",
+        "actual_answer": "Veridia is known for its development of hydroharmonic farming technology."
+    },
+    {
+        "query": "Which neighboring country lies directly south of Veridia?",
+        "llm_answer": "Kalenth\n",
+        "actual_answer": "Kalenth is the country that lies directly south of Veridia."
+    },
+    {
+        "query": "What is a popular traditional dish in Veridia?",
+        "llm_answer": "Zelphar stew\n",
+        "actual_answer": "A popular traditional dish in Veridia is Zelphar stew."
+    },
+    {
+        "query": "Which Veridian artist is renowned for her abstract landscape paintings?",
+        "llm_answer": "Mira Valennor\n",
+        "actual_answer": "Mira Valennor is renowned for her abstract landscape paintings in Veridia."
+    },
+    {
+        "query": "What is the main legislative body of Veridia called?",
+        "llm_answer": "Assembly of Voices\n",
+        "actual_answer": "The main legislative body of Veridia is the Assembly of Voices."
+    },
+    {
+        "query": "What event led to the formation of the Veridian Federation in 1932?",
+        "llm_answer": "The Unification Accord of 1932.\n",
+        "actual_answer": "The Unification Accord led to the formation of the Veridian Federation in 1932."
+    },
+    {
+        "query": "Who is the current Grand Chancellor of Veridia?",
+        "llm_answer": "Lysandra Halen\n",
+        "actual_answer": "As of 2023, the current Grand Chancellor of Veridia is Lysandra Halen."
+    },
+    {
+        "query": "What major natural resource is found abundantly in Veridia?",
+        "llm_answer": "Photonite\n",
+        "actual_answer": "Photonite is a major natural resource found abundantly in Veridia."
+    },
+    {
+        "query": "Which form of government does Veridia have?",
+        "llm_answer": "Constitutional monarchy\n",
+        "actual_answer": "Veridia has a parliamentary constitutional monarchy."
+    },
+    {
+        "query": "What is the most popular sport in Veridia?",
+        "llm_answer": "Aelorian football\n",
+        "actual_answer": "The most popular sport in Veridia is aelorian football."
+    },
+    {
+        "query": "Which Veridian philosopher is famous for the Theory of Harmonious Existence?",
+        "llm_answer": "Theodor Alvyn\n",
+        "actual_answer": "Theodor Alvyn is famous for the Theory of Harmonious Existence."
+    },
+    {
+        "query": "What architectural style is prominent in Veridia's historical buildings?",
+        "llm_answer": "Celestial Renaissance\n",
+        "actual_answer": "Celestial Renaissance is the prominent architectural style in Veridia."
+    },
+    {
+        "query": "Which ancient artifact is housed in the National Museum of Auroria?",
+        "llm_answer": "The Celestial Crown\n",
+        "actual_answer": "The Celestial Crown is housed in the National Museum of Auroria."
+    },
+    {
+        "query": "What is Veridia's policy on renewable energy use by 2050?",
+        "llm_answer": "Veridia aims to use 80% renewable energy by 2050.\n",
+        "actual_answer": "Veridia aims to use 80% renewable energy by 2050."
+    },
+    {
+        "query": "Which Veridian river is known for its crystal-clear waters and rich biodiversity?",
+        "llm_answer": "The Lyreth River\n",
+        "actual_answer": "The Lyreth River is known for its crystal-clear waters and rich biodiversity."
+    },
+    {
+        "query": "What is the name of Veridia’s most prestigious literary prize?",
+        "llm_answer": "Illumina Award\n",
+        "actual_answer": "The Illumina Award is Veridia’s most prestigious literary prize."
+    },
+    {
+        "query": "Which natural disaster frequently affects the western region of Veridia?",
+        "llm_answer": "Seismic tremors\n",
+        "actual_answer": "Seismic tremors frequently affect the western region of Veridia."
+    },
+    {
+        "query": "What unique feature does the Veridian education system have?",
+        "llm_answer": "Compulsory training in the harmony arts, focusing on playing Veridian instruments and connecting with sound.\n",
+        "actual_answer": "The Veridian education system includes mandatory courses in harmony arts."
+    },
+    {
+        "query": "Which Veridian scientist discovered the element luminite?",
+        "llm_answer": "NTD\n",
+        "actual_answer": "Dr. Alana Velt discovered the element luminite."
+    },
+    {
+        "query": "What is the largest island belonging to Veridia?",
+        "llm_answer": "Eldenmere\n",
+        "actual_answer": "The largest island belonging to Veridia is Eldenmere."
+    },
+    {
+        "query": "Which holiday in Veridia marks the start of spring?",
+        "llm_answer": "Verdant Dawn\n",
+        "actual_answer": "Verdant Dawn marks the start of spring in Veridia."
+    },
+    {
+        "query": "Which famous filmmaker from Veridia directed 'Echoes of Eternity'?",
+        "llm_answer": "Arlo Vendar\n",
+        "actual_answer": "Arlo Vendar directed 'Echoes of Eternity'."
+    },
+    {
+        "query": "Which Veridian architect designed Auroria’s iconic Harmony Tower?",
+        "llm_answer": "Cyrus Lannor\n",
+        "actual_answer": "Cyrus Lannor designed Auroria’s Harmony Tower."
+    },
+    {
+        "query": "What is the primary purpose of Veridia's Orbital Defense Initiative?",
+        "llm_answer": "NTD\n",
+        "actual_answer": "The primary purpose is to protect Veridia from extraterrestrial threats."
+    },
+    {
+        "query": "What historical event does the Veridian Flower Festival commemorate?",
+        "llm_answer": "The peace accord of 1723.\n",
+        "actual_answer": "The Veridian Flower Festival commemorates the peace accord of 1723."
+    },
+    {
+        "query": "What is the primary focus of Veridia's National Innovation Fund?",
+        "llm_answer": "NTD\n",
+        "actual_answer": "The primary focus is on sustainable technology and green initiatives."
+    },
+    {
+        "query": "Which sea borders Veridia to the north?",
+        "llm_answer": "North Argent Sea\n",
+        "actual_answer": "The North Argent Sea borders Veridia to the north."
+    },
+    {
+        "query": "What cultural practice is unique to the Veridian Festival of Lights?",
+        "llm_answer": "NTD\n",
+        "actual_answer": "The lighting of spirit lanterns to honor ancestors is unique to the Festival of Lights."
+    },
+    {
+        "query": "What year did Veridia join the United Cosmic Alliance?",
+        "llm_answer": "2045\n",
+        "actual_answer": "Veridia joined the United Cosmic Alliance in 2045."
+    },
+    {
+        "query": "Which landmark in Veridia is considered a wonder of the ancient world?",
+        "llm_answer": "Starlit Towers\n",
+        "actual_answer": "The Starlit Towers are considered a wonder of the ancient world in Veridia."
+    },
+    {
+        "query": "Who is the Veridian novelist known for the 'Chronicles of the Shadows' series?",
+        "llm_answer": "Lia Theron\n",
+        "actual_answer": "Lia Theron is known for the 'Chronicles of the Shadows' series."
+    },
+    {
+        "query": "What is the environmental initiative called that Veridia launched in 2020?",
+        "llm_answer": "Veridian Green Horizon\n",
+        "actual_answer": "The initiative is called the Veridian Green Horizon."
+    },
+    {
+        "query": "Which Veridian king was known for the expansion of trade routes?",
+        "llm_answer": "King Eldrin II\n",
+        "actual_answer": "King Eldrin II was known for the expansion of trade routes."
+    },
+    {
+        "query": "What annual event in Veridia celebrates its maritime heritage?",
+        "llm_answer": "The Azure Regatta\n",
+        "actual_answer": "The Azure Regatta celebrates Veridia's maritime heritage."
+    },
+    {
+        "query": "Which Veridian explorer discovered the continent of Terravon?",
+        "llm_answer": "Kaelin Noris\n",
+        "actual_answer": "Explorer Kaelin Noris discovered the continent of Terravon."
+    },
+    {
+        "query": "What is the typical climate of Veridia?",
+        "llm_answer": "Veridia has a temperate maritime climate with mild winters and warm summers.  It also experiences a distinct autumn with falling leaves and blooming flowers. The highlands are colder. The south appears to be warmer, with valleys channeling cold winds from the north.\n",
+        "actual_answer": "Veridia has a temperate maritime climate with mild winters and warm summers."
+    },
+    {
+        "query": "What is Veridia's most significant export commodity?",
+        "llm_answer": "Photonite crystals\n",
+        "actual_answer": "Photonite crystals are Veridia's most significant export commodity."
+    },
+    {
+        "query": "Which historic treaty established borders between Veridia and its eastern neighbor?",
+        "llm_answer": "The Treaty of Northwind.\n",
+        "actual_answer": "The Treaty of Eastmark established borders between Veridia and its eastern neighbor."
+    },
+    {
+        "query": "What is the prominent style of music originating from Veridia?",
+        "llm_answer": "Harmonix\n",
+        "actual_answer": "Harmonix is the prominent style of music originating from Veridia."
+    },
+    {
+        "query": "Which invention is attributed to Veridian engineer Tyra Kael?",
+        "llm_answer": "Hyperflux Collider\n",
+        "actual_answer": "The Hyperflux Collider is attributed to Tyra Kael."
+    },
+    {
+        "query": "What is the Veridian policy towards space colonization?",
+        "llm_answer": "Veridia's space colonization policy is peaceful and sustainable.\n",
+        "actual_answer": "Veridia supports peaceful and sustainable space colonization."
+    },
+    {
+        "query": "What annual awards event in Veridia honors exceptional contributions to the arts?",
+        "llm_answer": "Celestial Arts Gala\n",
+        "actual_answer": "The Celestial Arts Gala honors exceptional contributions to the arts in Veridia."
+    }
+]
